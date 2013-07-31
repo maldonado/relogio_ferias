@@ -1,0 +1,2 @@
+module VacancesCalendarsHelper
+end
