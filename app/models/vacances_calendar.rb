@@ -3,7 +3,8 @@ class VacancesCalendar
   attr_accessor :days_until_vacances
   
   def initialize()
-    @days_until_vacances = (Date.new(2013,9,19) - Date.today).to_i
+    number_of_days = (Date.new(2013,9,19) - Date.today).to_i
+    @days_until_vacances = "Faltam apenas " + number_of_days.to_s + " dias para as férias do evermal."
   end
   
 end
