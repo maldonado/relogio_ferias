@@ -12,12 +12,10 @@ class VacancesCalendar
   end
   
   def start_count_down
-    # while @seconds > 0
-      calculate_seconds
-      calculate_minutes
-      calculate_hours
-      calculate_days
-    # end
+    calculate_seconds
+    calculate_minutes
+    calculate_hours
+    calculate_days
   end
       
   def calculate_seconds
