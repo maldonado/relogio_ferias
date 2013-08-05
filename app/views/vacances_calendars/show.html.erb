@@ -1,1 +1,7 @@
-<h1><%= @vacances_calendar.days_until_vacances.to_s%></h1>
+<h1><%= "Contagem regressiva para as férias !!! " %></h1>
+<p>
+	<%= "Faltam #{vacances_calendar.days} : #{vacances_calendar.hours} : #{vacances_calendar.minutes}" %>
+</p>
+<p>
+	<%= "E um total de #{vacances_calendar.seconds} segundos"%>
+</p>
